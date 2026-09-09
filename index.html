@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#75d5f5">
+  <title>Phonics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div class="sun" aria-hidden="true">☀</div>
+      <h1>Phonics</h1>
+      <div class="cloud cloud-one" aria-hidden="true"></div>
+      <div class="cloud cloud-two" aria-hidden="true"></div>
+    </header>
+
+    <button class="set-selector" id="setSelector" aria-haspopup="listbox" aria-expanded="false">
+      <span class="books" aria-hidden="true">📚</span>
+      <span id="setName">CVC Words</span>
+      <span class="chevron" aria-hidden="true"></span>
+    </button>
+
+    <div class="set-menu hidden" id="setMenu" role="listbox"></div>
+
+    <section class="card" id="card" aria-label="Phonics card">
+      <!-- <div class="sound" id="sound"></div> -->
+      <div class="picture" id="picture" aria-hidden="true"></div>
+      <div class="word" id="word"></div>
+    </section>
+
+    <div class="ground" aria-hidden="true">
+      <span class="hill hill-one"></span>
+      <span class="hill hill-two"></span>
+      <span class="flower flower-one">✿</span>
+      <span class="flower flower-two">✿</span>
+      <span class="leaf leaf-one"></span>
+      <span class="leaf leaf-two"></span>
+    </div>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

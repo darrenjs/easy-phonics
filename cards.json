@@ -1,0 +1,57 @@
+{
+    "cvc": {
+        "name": "CVC Words",
+        "cards": [
+            {
+                "word": "cat",
+                "rendering": "a",
+                "image": "images/ou_cow.png"
+            },
+            {
+                "word": "pig",
+                "rendering": "i",
+                "image": "images/ou_ouch.png"
+            },
+            {
+                "word": "dog",
+                "rendering": "o",
+                "image": "images/ou_owl.png"
+            },
+            {
+                "word": "sun",
+                "rendering": "u",
+                "image": "images/ou_shout.png"
+            }
+        ]
+    },
+    "cvcc": {
+        "name": "CVCC Words",
+        "cards": [
+            {
+                "word": "soft",
+                "rendering": "ft",
+                "image": "images/ph_alphabet.png"
+            },
+            {
+                "word": "raft",
+                "rendering": "ft",
+                "image": "images/ph_alphabet.png"
+            },
+            {
+                "word": "gift",
+                "rendering": "ft",
+                "image": "images/ph_alphabet.png"
+            },
+            {
+                "word": "elephant",
+                "rendering": "ph",
+                "image": "images/ph_elephant.png"
+            },
+            {
+                "word": "photo",
+                "rendering": "ph",
+                "image": "images/ph_photo.png"
+            }
+        ]
+    }
+}
