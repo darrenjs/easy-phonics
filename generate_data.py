@@ -93,10 +93,10 @@ def validate(data: object, json_dir: Path) -> None:
 
             image_path = json_dir / image
 
-            if image_path.suffix.lower() != ".png":
-                fail(
-                    f"{prefix}: image {image!r} is not a PNG file."
-                )
+            # if image_path.suffix.lower() != ".png":
+            #     fail(
+            #         f"{prefix}: image {image!r} is not a PNG file."
+            #     )
 
             if not image_path.is_file():
                 fail(

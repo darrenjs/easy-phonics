@@ -10,6 +10,21 @@
   --card: #fffdfa;
 }
 
+@font-face {
+    font-family: "Comic Neue";
+    src: url("fonts/ComicNeue-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic Neue";
+    src: url("fonts/ComicNeue-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 html,
 body {
   margin: 0;
@@ -21,7 +36,7 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
   overflow: hidden;
-  font-family: "Comic Sans MS", "Trebuchet MS", "Avenir Next", system-ui, sans-serif;
+  font-family: "Comic Neue", sans-serif;
   color: var(--ink);
   background: linear-gradient(180deg, var(--sky-light) 0%, var(--sky) 54%, #b9e75c 100%);
 }
@@ -182,8 +197,8 @@ button {
 
 .card {
   position: relative;
-  z-index: 5;
   width: min(100%, 560px);
+  z-index: 5;
   flex: 1;
   min-height: 0;
   margin: 22px 0 8px;
@@ -205,6 +220,80 @@ button {
   transition: transform 180ms cubic-bezier(.25,.8,.3,1);
 }
 
+
+
+.card {
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  transform-style: preserve-3d;
+  transition: transform 300ms ease;
+}
+
+.card-face {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+
+
+/* .card-face { */
+/*   position: absolute; */
+/*   inset: 0; */
+
+/*   display: flex; */
+/*   align-items: center; */
+/*   justify-content: center; */
+
+/*   backface-visibility: hidden; */
+/*   -webkit-backface-visibility: hidden; */
+/* } */
+
+.card-front {
+  flex-direction: column;
+}
+
+.card-back {
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+  transform: rotateY(180deg);
+}
+
+/* .card-back { */
+/*   flex-direction: column; */
+/*   transform: rotateY(180deg); */
+/* } */
+/* .card-back { */
+/*   transform: rotateY(180deg); */
+/* } */
+
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+
+
+.word-back {
+  font-size: 56px;
+}
+
 .sound {
     font-weight: bold;
     position: relative;
@@ -218,37 +307,81 @@ button {
 /*   letter-spacing: -5px; */
 /* } */
 
+/* .picture { */
+/*   flex: 1; */
+/*   width: 100%; */
+/*   min-height: 100px; */
+/*   display: flex; */
+/*   align-items: center; */
+/*   justify-content: center; */
+/*   transform: translateY(2px); */
+/* } */
+
+/* .picture img { */
+/*   display: block; */
+/*   width: min(78%, 360px); */
+/*   height: min(38vh, 300px); */
+/*   object-fit: contain; */
+/*   -webkit-user-drag: none; */
+/*   user-select: none; */
+/*   pointer-events: none; */
+/* } */
+
 .picture {
-  flex: 1;
-  width: 100%;
-  min-height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateY(2px);
+  margin: 0;
 }
 
 .picture img {
   display: block;
-  width: min(78%, 360px);
-  height: min(38vh, 300px);
+  max-width: 70%;
+  max-height: 300px;
   object-fit: contain;
-  -webkit-user-drag: none;
-  user-select: none;
-  pointer-events: none;
 }
+
 
 .word {
   margin: 8px 0 2vh;
-  font-size: clamp(3rem, 12vw, 5rem);
-  font-weight: 800;
+  /*  font-size: clamp(4rem, 12vw, 5rem); */  /* min, preferred, max */
+  font-size: 80px;
+  font-weight: 700;
   letter-spacing: -2px;
   line-height: 1;
+  white-space: nowrap;   /* never wrap */
 }
 
+/*
 .word .focus {
   color: #ef4b4b;
 }
+*/
+
+/* .word .focus { */
+/*     color: #e74c3c; */
+/* } */
+
+.word .focus {
+  color: #ef4b4b;
+  text-decoration-line: underline;
+  text-decoration-color: #ef4b4b;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+  text-decoration-skip-ink: none;
+}
+
+
+/*
+.word .focus {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #ffd84d;
+  text-decoration-thickness: 8px;
+  text-underline-offset: 5px;
+  text-decoration-skip-ink: none;
+}
+*/
 
 /* Ground decoration */
 
@@ -302,6 +435,7 @@ button {
 
 .leaf-one { left: 10%; bottom: 22px; transform: rotate(25deg); }
 .leaf-two { right: 10%; bottom: 20px; transform: rotate(-25deg); }
+
 
 /* Small screens */
 

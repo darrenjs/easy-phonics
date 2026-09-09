@@ -15,6 +15,7 @@ const setNameEl = document.getElementById("setName");
 const cardEl = document.getElementById("card");
 const pictureEl = document.getElementById("picture");
 const wordEl = document.getElementById("word");
+const wordBackEl = document.getElementById("wordBack");
 
 function getCards() {
   return cardSets[currentSet].cards;
@@ -42,25 +43,30 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+
 function showCard() {
   const cards = getCards();
-
-  if (currentCard < 0) currentCard = 0;
-  if (currentCard >= cards.length) currentCard = cards.length - 1;
-
   const card = cards[currentCard];
 
+  if (!card) {
+    console.error("No card found:", currentSet, currentCard);
+    return;
+  }
+
+  cardEl.classList.remove("flipped");
+
+  const highlightedWord = highlightWord(card.word, card.rendering);
+
+  wordEl.innerHTML = highlightedWord;
+  wordBackEl.innerHTML = highlightedWord;
+
   pictureEl.innerHTML = "";
-  const imageEl = document.createElement("img");
-  imageEl.src = card.image;
-  imageEl.alt = card.word;
-  imageEl.draggable = false;
-  pictureEl.appendChild(imageEl);
 
-  wordEl.innerHTML = highlightWord(card.word, card.rendering);
+  const img = document.createElement("img");
+  img.src = card.image;
+  img.alt = card.word;
 
-  cardEl.style.transition = "none";
-  cardEl.style.transform = "";
+  pictureEl.appendChild(img);
 }
 
 function buildSetMenu() {
@@ -205,6 +211,10 @@ cardEl.addEventListener("touchcancel", () => {
   swiping = false;
   cardEl.style.transition = `transform ${SWIPE_DURATION}ms ease`;
   cardEl.style.transform = "";
+});
+
+cardEl.addEventListener("click", () => {
+  cardEl.classList.toggle("flipped");
 });
 
 showCard();

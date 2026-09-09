@@ -3,8 +3,8 @@
         "name": "CVC Words",
         "cards": [
             {
-                "word": "cat",
-                "rendering": "a",
+                "word": "cow",
+                "rendering": "o",
                 "image": "images/ou_cow.png"
             },
             {
@@ -28,6 +28,11 @@
         "name": "CVCC Words",
         "cards": [
             {
+                "word": "milk",
+                "rendering": "lk",
+                "image": "images/lk_milk.svg"
+            },
+            {
                 "word": "soft",
                 "rendering": "ft",
                 "image": "images/ph_alphabet.png"
@@ -43,7 +48,7 @@
                 "image": "images/ph_alphabet.png"
             },
             {
-                "word": "elephant",
+                "word": "ele·ph·ant",
                 "rendering": "ph",
                 "image": "images/ph_elephant.png"
             },

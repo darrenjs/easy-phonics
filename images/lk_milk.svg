@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" width="1024" height="1536">
+<defs>
+  <linearGradient id="glass" x1="0" x2="1">
+    <stop offset="0" stop-color="#d9f3ff"/>
+    <stop offset=".18" stop-color="#f7fdff"/>
+    <stop offset=".55" stop-color="#d7edf7"/>
+    <stop offset=".82" stop-color="#eefaff"/>
+    <stop offset="1" stop-color="#b9dce9"/>
+  </linearGradient>
+  <linearGradient id="milk" x1="0" x2="1">
+    <stop offset="0" stop-color="#fffef9"/>
+    <stop offset=".5" stop-color="#fffdf5"/>
+    <stop offset="1" stop-color="#f2efe3"/>
+  </linearGradient>
+  <linearGradient id="cap" x1="0" x2="1">
+    <stop offset="0" stop-color="#158dd4"/>
+    <stop offset=".5" stop-color="#159fe8"/>
+    <stop offset="1" stop-color="#0874c3"/>
+  </linearGradient>
+  <linearGradient id="capTop" x1="0" x2="1">
+    <stop offset="0" stop-color="#1599df"/>
+    <stop offset=".55" stop-color="#159ee8"/>
+    <stop offset="1" stop-color="#087bc9"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="0" x2="1">
+    <stop offset="0" stop-color="#b8e4f2"/>
+    <stop offset=".5" stop-color="#e9faff"/>
+    <stop offset="1" stop-color="#9dcbd9"/>
+  </linearGradient>
+</defs>
+
+<!-- bottle glass body -->
+<path d="M344 207
+ C342 290 326 344 292 407
+ C245 493 211 565 211 664
+ L211 1318
+ C211 1420 278 1482 510 1491
+ C746 1482 813 1420 813 1318
+ L813 664
+ C813 565 779 493 732 407
+ C698 344 682 290 680 207 Z"
+ fill="url(#glass)" stroke="#102f43" stroke-width="15" stroke-linejoin="round"/>
+
+<!-- milk -->
+<path d="M300 421
+ C355 402 669 402 724 421
+ C757 478 781 548 781 661
+ L781 1310
+ C781 1386 722 1444 512 1450
+ C302 1444 243 1386 243 1310
+ L243 661
+ C243 548 267 478 300 421 Z"
+ fill="url(#milk)"/>
+
+<!-- milk surface -->
+<path d="M299 422
+ C360 393 664 393 725 422
+ C681 451 343 451 299 422 Z"
+ fill="#fffef8" stroke="#e9e4d5" stroke-width="2"/>
+
+<!-- left glass highlight -->
+<path d="M333 430 C302 516 275 567 275 671 L275 1268
+ C275 1305 286 1327 305 1338
+ C319 1328 326 1307 326 1268
+ L326 679
+ C326 579 350 508 377 438 Z"
+ fill="#ffffff" opacity=".72"/>
+
+<!-- right glass shading -->
+<path d="M650 438 C681 514 699 575 699 679
+ L699 1268 C699 1330 678 1380 641 1409
+ C698 1389 748 1356 763 1308
+ L763 668 C763 570 733 493 700 431 Z"
+ fill="#c9dbe1" opacity=".34"/>
+
+<!-- bottom glass -->
+<path d="M222 1314 C245 1417 325 1468 512 1476
+ C699 1468 779 1417 802 1314
+ L802 1340
+ C775 1437 693 1483 512 1490
+ C331 1483 249 1437 222 1340 Z"
+ fill="#b9ddea" opacity=".8"/>
+
+<!-- neck glass -->
+<path d="M340 204 L684 204
+ C682 282 696 344 726 403
+ C684 421 340 421 298 403
+ C328 344 342 282 340 204 Z"
+ fill="url(#glass)"/>
+
+<!-- neck opening/rim -->
+<path d="M342 185 C329 191 322 203 327 216
+ C337 244 687 244 697 216
+ C702 203 695 191 682 185 Z"
+ fill="url(#rim)" stroke="#315b6e" stroke-width="12"/>
+
+<path d="M355 190 C390 177 634 177 669 190
+ C649 207 375 207 355 190 Z" fill="#eafaff"/>
+
+<!-- collar beneath cap -->
+<path d="M329 175 C344 158 680 158 695 175
+ C706 187 700 205 684 214
+ C655 230 369 230 340 214
+ C324 205 318 187 329 175 Z"
+ fill="url(#rim)" stroke="#315b6e" stroke-width="10"/>
+
+<!-- foreground collar shine -->
+<path d="M365 184 C415 174 605 174 658 184
+ C648 202 385 202 365 184 Z"
+ fill="#ffffff" opacity=".8"/>
+
+
+<!-- cap -->
+<path d="M316 91
+ C316 47 355 32 512 32
+ C669 32 708 47 708 91
+ L708 147
+ C708 186 680 204 512 209
+ C344 204 316 186 316 147 Z"
+ fill="url(#cap)" stroke="#102f43" stroke-width="15" stroke-linejoin="round"/>
+
+<!-- cap top -->
+<ellipse cx="512" cy="88" rx="194" ry="49" fill="url(#capTop)"/>
+<path d="M328 84 C356 45 427 38 512 38 C597 38 668 45 696 84
+ C660 108 595 119 512 119 C429 119 364 108 328 84 Z"
+ fill="#159be5"/>
+
+<!-- cap highlights -->
+<path d="M343 70 C371 48 410 43 452 41
+ C415 54 390 69 374 94 L343 84 Z"
+ fill="#7ed0f3" opacity=".55"/>
+<path d="M348 100 L348 137 C348 151 354 160 367 165
+ L383 161 L383 105 Z" fill="#9bdcf5" opacity=".45"/>
+<path d="M390 172 C455 187 571 188 635 174
+ C587 194 438 194 390 172 Z" fill="#056bb6" opacity=".5"/>
+
+<!-- subtle bottle outline accent -->
+<path d="M221 1320 C227 1414 310 1470 512 1480
+ C714 1470 797 1414 803 1320"
+ fill="none" stroke="#6faec3" stroke-width="5" opacity=".7"/>
+</svg>
