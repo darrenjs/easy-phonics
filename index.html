@@ -14,13 +14,15 @@
       <h1>Phonics</h1>
       <div class="cloud cloud-one" aria-hidden="true"></div>
       <div class="cloud cloud-two" aria-hidden="true"></div>
-    </header>
 
-    <button class="set-selector" id="setSelector" aria-haspopup="listbox" aria-expanded="false">
-      <span class="books" aria-hidden="true">📚</span>
-      <span id="setName">CVC Words</span>
-      <span class="chevron" aria-hidden="true"></span>
+
+    <button class="menu-button" id="setSelector" aria-label="Choose word set"
+      aria-haspopup="listbox" aria-expanded="false">
+      <span class="hamburger" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span id="setName" class="sr-only">CVC Words</span>
     </button>
+
+    </header>
 
     <div class="set-menu hidden" id="setMenu" role="listbox"></div>
 

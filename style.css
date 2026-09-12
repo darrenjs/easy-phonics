@@ -7,7 +7,7 @@
   --sky: #79d9f7;
   --sky-light: #bceefa;
   --grass: #a9dc55;
-  --card: #fffdfa;
+  --card: #FFFFF0 ;
 }
 
 @font-face {
@@ -113,85 +113,33 @@ button {
   opacity: .75;
 }
 
-/* Set selector */
+/* Set menu */
 
-.set-selector {
-  position: relative;
-  z-index: 20;
-  width: min(100%, 500px);
-  height: 58px;
-  padding: 0 20px;
-  border: 0;
-  border-radius: 30px;
-  background: rgba(255,255,255,.92);
-  color: var(--ink);
-  box-shadow: 0 8px 20px rgba(45, 91, 112, .13);
-  display: flex;
-  align-items: center;
-  gap: 13px;
-  cursor: pointer;
-  font-size: 1.2rem;
-  font-weight: 750;
-  text-align: left;
-  flex-shrink: 0;
-  transition: transform 120ms ease, box-shadow 120ms ease;
-}
-
-.set-selector:active {
-  transform: scale(.985);
-}
-
-.books {
-  font-size: 1.65rem;
-  line-height: 1;
-}
-
-.chevron {
-  width: 12px;
-  height: 12px;
-  margin-left: auto;
-  border-right: 3px solid var(--ink);
-  border-bottom: 3px solid var(--ink);
-  transform: rotate(45deg) translateY(-3px);
-  transition: transform 160ms ease;
-}
-
-.set-selector[aria-expanded="true"] .chevron {
-  transform: rotate(225deg) translate(-2px, -2px);
-}
-
-.set-menu {
+.menu-button {
   position: absolute;
-  z-index: 30;
-  top: 180px;
-  width: min(calc(100% - 28px), 500px);
-  padding: 8px;
-  border-radius: 20px;
-  background: white;
-  box-shadow: 0 15px 35px rgba(32, 39, 91, .18);
-}
-
-.set-option {
-  width: 100%;
-  padding: 14px 16px;
-  border: 0;
-  border-radius: 14px;
-  background: transparent;
+  z-index: 25;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  border: 1;
+  border-radius: 50%;
+  background: rgba(255,255,255,.88);
   color: var(--ink);
-  text-align: left;
-  font-size: 1.05rem;
-  font-weight: 700;
-  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(45, 91, 112, .13);
+  display: flex; align-items: center; justify-content: center; cursor: pointer;
 }
-
-.set-option:hover,
-.set-option.selected {
-  background: #eefaff;
-}
-
-.hidden {
-  display: none;
-}
+.menu-button:active { transform: translateY(-50%) scale(.94); }
+.hamburger {
+    width: 23px; display: flex; flex-direction: column; gap: 5px; }
+.hamburger span { display:block; width:100%; height:3px; border-radius:3px; background:var(--ink); }
+.set-menu { position:absolute; z-index:30; top:82px; right:14px; width:min(calc(100% - 28px),300px); padding:8px; border-radius:20px; background:white; box-shadow:0 15px 35px rgba(32,39,91,.18); }
+.set-option { width:100%; padding:14px 16px; border:0; border-radius:14px; background:transparent; color:var(--ink); text-align:left; font-size:1.05rem; font-weight:700; cursor:pointer; }
+.set-option:hover, .set-option.selected { background:#eefaff; }
+.hidden { display:none; }
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 
 /* Flashcard */
 
@@ -413,14 +361,7 @@ button {
     font-size: 2.5rem;
   }
 
-  .set-selector {
-    height: 52px;
-    font-size: 1.08rem;
-  }
-
-  .set-menu {
-    top: 153px;
-  }
+  .menu-button { width: 48px; height: 48px; }
 
   .card {
     margin-top: 16px;

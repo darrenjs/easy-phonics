@@ -117,8 +117,18 @@ const cardSets = {
       },
       {
         word: "palm",
-        rendering: "palm",
+        rendering: "lm",
         image: "images/palm.png"
+      },
+      {
+        word: "tusk",
+        rendering: "sk",
+        image: "images/tusk.png"
+      },
+      {
+        word: "gift",
+        rendering: "ft",
+        image: "images/gift.png"
       },
       {
         word: "tusk",
