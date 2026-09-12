@@ -38,7 +38,7 @@ const cardSets = {
       {
         word: "yolk",
         rendering: "lk",
-        image: "images/yolk.svg"
+        image: "images/yolk.png"
       },
       {
         word: "belt",
@@ -56,9 +56,39 @@ const cardSets = {
         image: "images/nest2.png"
       },
       {
-        word: "photo",
-        rendering: "ph",
-        image: "images/ph_photo.png"
+        word: "ant",
+        rendering: "nt",
+        image: "images/ant.png"
+      },
+      {
+        word: "tent",
+        rendering: "nt",
+        image: "images/tent.png"
+      },
+      {
+        word: "cart",
+        rendering: "rt",
+        image: "images/cart.png"
+      },
+      {
+        word: "fork",
+        rendering: "rk",
+        image: "images/fork.png"
+      },
+      {
+        word: "park",
+        rendering: "rk",
+        image: "images/park.png"
+      },
+      {
+        word: "mask",
+        rendering: "sk",
+        image: "images/mask.png"
+      },
+      {
+        word: "wasp",
+        rendering: "sp",
+        image: "images/wasp.png"
       }
     ]
   }
