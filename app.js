@@ -53,6 +53,7 @@ function showCard() {
     return;
   }
 
+  cardEl.classList.add("resetting");
   cardEl.classList.remove("flipped");
 
   const highlightedWord = highlightWord(card.word, card.rendering);
@@ -67,6 +68,10 @@ function showCard() {
   img.alt = card.word;
 
   pictureEl.appendChild(img);
+
+  requestAnimationFrame(() => {
+    cardEl.classList.remove("resetting");
+  });
 }
 
 function buildSetMenu() {
@@ -140,9 +145,16 @@ function changeCard(direction) {
   cardEl.style.transform =
     `translateX(${outgoingX}px) rotate(${direction < 0 ? 5 : -5}deg)`;
 
-  setTimeout(() => {
-    currentCard = next;
-    showCard();
+    setTimeout(() => {
+
+        currentCard = next;
+
+        cardEl.classList.add("resetting");
+        showCard();
+
+        requestAnimationFrame(() => {
+            cardEl.classList.remove("resetting");
+        });
 
     cardEl.style.transition = "none";
     cardEl.style.transform =
@@ -155,9 +167,6 @@ function changeCard(direction) {
     cardEl.style.transform = "";
   }, SWIPE_DURATION);
 }
-
-// Clicking the card is intentionally inactive for now.
-// We may use it later for a reveal/animation interaction.
 
 cardEl.addEventListener("touchstart", (event) => {
   if (event.touches.length !== 1) return;
@@ -186,20 +195,30 @@ cardEl.addEventListener("touchmove", (event) => {
   }
 }, { passive: true });
 
+// touchend owns the entire tap vs. swipe decision (this app is touch/tablet-only,
+// so there's no need for a separate pointerup/click handler racing against this).
 cardEl.addEventListener("touchend", (event) => {
-  if (!swiping) return;
-
   const endX = event.changedTouches[0].clientX;
   const endY = event.changedTouches[0].clientY;
 
   const dx = endX - touchStartX;
   const dy = endY - touchStartY;
 
+  const wasReallySwiping = swiping;
   swiping = false;
 
+  // Finger never crossed the drag threshold at all -> clean tap, flip the card.
+  if (!wasReallySwiping) {
+    cardEl.classList.toggle("flipped");
+    return;
+  }
+
+  // Crossed the small drag threshold but never became a real swipe ->
+  // snap back to center and treat it as a tap.
   if (Math.abs(dx) < SWIPE_THRESHOLD || Math.abs(dx) <= Math.abs(dy)) {
     cardEl.style.transition = `transform ${SWIPE_DURATION}ms ease`;
     cardEl.style.transform = "";
+    cardEl.classList.toggle("flipped");
     return;
   }
 
@@ -213,8 +232,5 @@ cardEl.addEventListener("touchcancel", () => {
   cardEl.style.transform = "";
 });
 
-cardEl.addEventListener("click", () => {
-  cardEl.classList.toggle("flipped");
-});
 
 showCard();

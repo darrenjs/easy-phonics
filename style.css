@@ -304,6 +304,10 @@ button {
   margin: 0;
 }
 
+.card.resetting .card-inner {
+  transition: none !important;
+}
+
 .picture img {
   display: block;
   width: 100%;

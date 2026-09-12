@@ -6,6 +6,11 @@ const cardSets = {
     name: "CVC Words",
     cards: [
       {
+        word: "fox",
+        rendering: "o",
+        image: "images/fox.png"
+      },
+      {
         word: "cow",
         rendering: "o",
         image: "images/ou_cow.png"
@@ -89,6 +94,26 @@ const cardSets = {
         word: "wasp",
         rendering: "sp",
         image: "images/wasp.png"
+      },
+      {
+        word: "ink",
+        rendering: "nk",
+        image: "images/ink.png"
+      },
+      {
+        word: "wink",
+        rendering: "nk",
+        image: "images/wink.png"
+      },
+      {
+        word: "film",
+        rendering: "lm",
+        image: "images/film.png"
+      },
+      {
+        word: "tusk",
+        rendering: "sk",
+        image: "images/tusk.png"
       }
     ]
   }
