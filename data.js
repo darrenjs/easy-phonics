@@ -36,24 +36,24 @@ const cardSets = {
         image: "images/lk_milk.svg"
       },
       {
-        word: "soft",
-        rendering: "ft",
-        image: "images/ph_alphabet.png"
+        word: "yolk",
+        rendering: "lk",
+        image: "images/yolk.svg"
       },
       {
-        word: "raft",
-        rendering: "ft",
-        image: "images/ph_alphabet.png"
+        word: "belt",
+        rendering: "lt",
+        image: "images/belt.png"
       },
       {
-        word: "gift",
-        rendering: "ft",
-        image: "images/ph_alphabet.png"
+        word: "vest",
+        rendering: "st",
+        image: "images/vest.svg"
       },
       {
-        word: "ele·ph·ant",
-        rendering: "ph",
-        image: "images/ph_elephant.png"
+        word: "nest",
+        rendering: "st",
+        image: "images/nest2.png"
       },
       {
         word: "photo",

@@ -13,14 +13,14 @@
 @font-face {
     font-family: "Comic Neue";
     src: url("fonts/ComicNeue-Regular.ttf") format("truetype");
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Comic Neue";
     src: url("fonts/ComicNeue-Bold.ttf") format("truetype");
-    font-weight: 700;
+    font-weight: 900;
     font-style: normal;
 }
 
@@ -209,6 +209,12 @@ button {
   user-select: none;
   cursor: pointer;
   transition: transform 180ms cubic-bezier(.25,.8,.3,1);
+
+}
+
+.card-word {
+    font-family: "Comic Neue", sans-serif;
+    letter-spacing: 0.3em;
 }
 
 .card-inner {
@@ -240,6 +246,7 @@ button {
   overflow: hidden;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+      letter-spacing: 0.3em;
 }
 
 .card-front {
@@ -308,16 +315,22 @@ button {
 }
 
 .word {
+     letter-spacing: 0.05em  !important;
+
+        font-variant-ligatures: none;
+    font-feature-settings: "liga" 0;
   margin: 8px 0 2vh;
   font-size: 80px;
-  font-weight: 700;
+  font-weight: 1000;
   letter-spacing: -2px;
   line-height: 1;
   white-space: nowrap;
 }
 
 .word .focus {
-  color: #ef4b4b;
+
+    color: #ef4b4b;
+        font-variant-ligatures: none;
   text-decoration-line: underline;
   text-decoration-color: #ef4b4b;
   text-decoration-thickness: 3px;
