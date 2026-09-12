@@ -46,6 +46,11 @@ const cardSets = {
         image: "images/yolk.png"
       },
       {
+        word: "sulk",
+        rendering: "lk",
+        image: "images/sulk.png"
+      },
+      {
         word: "belt",
         rendering: "lt",
         image: "images/belt.png"
@@ -109,6 +114,11 @@ const cardSets = {
         word: "film",
         rendering: "lm",
         image: "images/film.png"
+      },
+      {
+        word: "palm",
+        rendering: "palm",
+        image: "images/palm.png"
       },
       {
         word: "tusk",
