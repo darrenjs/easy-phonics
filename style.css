@@ -10,16 +10,17 @@
   --card: #FFFFF0 ;
 }
 
+/* define our fonts */
 @font-face {
-    font-family: "Comic Neue";
-    src: url("fonts/ComicNeue-Regular.ttf") format("truetype");
+    font-family: "Andika";
+    src: url("fonts/PhonicsHand-Taller-Regular.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Comic Neue";
-    src: url("fonts/ComicNeue-Bold.ttf") format("truetype");
+    font-family: "Andika";
+    src: url("fonts/PhonicsHand-Taller-Regular.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
 }
@@ -36,7 +37,7 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
   overflow: hidden;
-  font-family: "Comic Neue", sans-serif;
+  font-family: "Andika", sans-serif;
   color: var(--ink);
   background: linear-gradient(180deg, var(--sky-light) 0%, var(--sky) 54%, #b9e75c 100%);
 }
@@ -161,8 +162,8 @@ button {
 }
 
 .card-word {
-    font-family: "Comic Neue", sans-serif;
-    letter-spacing: 0.3em;
+    font-family: "Andika", sans-serif;
+   /* letter-spacing: 0.3em; */
 }
 
 .card-inner {
@@ -194,7 +195,6 @@ button {
   overflow: hidden;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-      letter-spacing: 0.3em;
 }
 
 .card-front {
@@ -212,7 +212,7 @@ button {
 
 .word-back {
   font-size: 56px;
-  margin: 0 0 24px;
+  margin: 0 0 6vh;
   flex-shrink: 0;
 }
 
@@ -267,27 +267,24 @@ button {
 }
 
 .word {
-     letter-spacing: 0.05em  !important;
-
-        font-variant-ligatures: none;
+    font-variant-ligatures: none;
     font-feature-settings: "liga" 0;
-  margin: 8px 0 2vh;
-  font-size: 80px;
-  font-weight: 1000;
-  letter-spacing: -2px;
-  line-height: 1;
-  white-space: nowrap;
+    margin: 0 0 6vh;
+    font-size: 100px;
+    line-height: 1;
+    white-space: nowrap;
+    letter-spacing: -3px;
 }
 
 .word .focus {
 
     color: #ef4b4b;
-        font-variant-ligatures: none;
-  text-decoration-line: underline;
-  text-decoration-color: #ef4b4b;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 4px;
-  text-decoration-skip-ink: none;
+    font-variant-ligatures: none;
+    text-decoration-line: underline;
+    text-decoration-color: #ef4b4b;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    text-decoration-skip-ink: none;
 }
 
 /* Ground decoration */

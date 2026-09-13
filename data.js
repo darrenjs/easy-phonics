@@ -11,24 +11,19 @@ const cardSets = {
         image: "images/fox.png"
       },
       {
-        word: "cow",
-        rendering: "o",
-        image: "images/ou_cow.png"
-      },
-      {
-        word: "pig",
-        rendering: "i",
-        image: "images/ou_ouch.png"
-      },
-      {
         word: "dog",
         rendering: "o",
-        image: "images/ou_owl.png"
+        image: "images/dog-800_32.png"
       },
       {
-        word: "sun",
-        rendering: "u",
-        image: "images/ou_shout.png"
+        word: "bag",
+        rendering: "a",
+        image: "images/bag-800_32.png"
+      },
+      {
+        word: "cat",
+        rendering: "a",
+        image: "images/cat-800_32.png"
       }
     ]
   },
@@ -126,14 +121,34 @@ const cardSets = {
         image: "images/tusk.png"
       },
       {
+        word: "raft",
+        rendering: "ft",
+        image: "images/raft-800_32.png"
+      },
+      {
         word: "gift",
         rendering: "ft",
         image: "images/gift.png"
       },
       {
-        word: "tusk",
-        rendering: "sk",
-        image: "images/tusk.png"
+        word: "hand",
+        rendering: "nd",
+        image: "images/hand.png"
+      },
+      {
+        word: "calf",
+        rendering: "lf",
+        image: "images/calf.png"
+      },
+      {
+        word: "wolf",
+        rendering: "lf",
+        image: "images/wolf-800_32.png"
+      },
+      {
+        word: "text",
+        rendering: "xt",
+        image: "images/text-800_32.png"
       }
     ]
   }
