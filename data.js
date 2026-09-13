@@ -63,7 +63,7 @@ const cardSets = {
       {
         word: "ant",
         rendering: "nt",
-        image: "images/ant.png"
+        image: "images/ant-800_32.png"
       },
       {
         word: "tent",
@@ -71,9 +71,19 @@ const cardSets = {
         image: "images/tent.png"
       },
       {
+        word: "tart",
+        rendering: "rt",
+        image: "images/tart-800_32.png"
+      },
+      {
         word: "cart",
         rendering: "rt",
         image: "images/cart.png"
+      },
+      {
+        word: "dark",
+        rendering: "rk",
+        image: "images/dark-800_32.png"
       },
       {
         word: "fork",
@@ -139,6 +149,11 @@ const cardSets = {
         word: "calf",
         rendering: "lf",
         image: "images/calf.png"
+      },
+      {
+        word: "elf",
+        rendering: "lf",
+        image: "images/elf-800_32.png"
       },
       {
         word: "wolf",
