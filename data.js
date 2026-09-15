@@ -54,6 +54,11 @@ const cardSets = {
         word: "mum",
         rendering: "u",
         image: "images/mum.png"
+      },
+      {
+        word: "egg",
+        rendering: "e",
+        image: "images/egg.png"
       }
     ]
   },
@@ -64,6 +69,11 @@ const cardSets = {
         word: "milk",
         rendering: "lk",
         image: "images/lk_milk.svg"
+      },
+      {
+        word: "elk",
+        rendering: "lk",
+        image: "images/elk-800_32.png"
       },
       {
         word: "yolk",
@@ -79,6 +89,11 @@ const cardSets = {
         word: "belt",
         rendering: "lt",
         image: "images/belt.png"
+      },
+      {
+        word: "wilt",
+        rendering: "lt",
+        image: "images/wilt-800_32.png"
       },
       {
         word: "vest",
@@ -156,6 +171,11 @@ const cardSets = {
         image: "images/palm.png"
       },
       {
+        word: "lip balm",
+        rendering: "lm",
+        image: "images/lip_blam-800_32.png"
+      },
+      {
         word: "tusk",
         rendering: "sk",
         image: "images/tusk.png"
@@ -174,6 +194,16 @@ const cardSets = {
         word: "hand",
         rendering: "nd",
         image: "images/hand.png"
+      },
+      {
+        word: "wand",
+        rendering: "nd",
+        image: "images/wand-800_32.png"
+      },
+      {
+        word: "pond",
+        rendering: "nd",
+        image: "images/pond-800_32.png"
       },
       {
         word: "calf",
