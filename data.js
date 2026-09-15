@@ -24,6 +24,36 @@ const cardSets = {
         word: "cat",
         rendering: "a",
         image: "images/cat-800_32.png"
+      },
+      {
+        word: "jam",
+        rendering: "a",
+        image: "images/jam.png"
+      },
+      {
+        word: "box",
+        rendering: "o",
+        image: "images/box.png"
+      },
+      {
+        word: "dig",
+        rendering: "i",
+        image: "images/dig.png"
+      },
+      {
+        word: "zip",
+        rendering: "i",
+        image: "images/zip.png"
+      },
+      {
+        word: "mix",
+        rendering: "i",
+        image: "images/mix.png"
+      },
+      {
+        word: "mum",
+        rendering: "u",
+        image: "images/mum.png"
       }
     ]
   },
