@@ -66,6 +66,21 @@ const cardSets = {
     name: "CVCC Words",
     cards: [
       {
+        word: "sink",
+        rendering: "nk",
+        image: "images/sink.png"
+      },
+      {
+        word: "rink",
+        rendering: "nk",
+        image: "images/rink-800_32.png"
+      },
+      {
+        word: "pink",
+        rendering: "nk",
+        image: "images/pink-800_32.png"
+      },
+      {
         word: "milk",
         rendering: "lk",
         image: "images/lk_milk.svg"
@@ -86,14 +101,44 @@ const cardSets = {
         image: "images/sulk.png"
       },
       {
+        word: "salt",
+        rendering: "lt",
+        image: "images/salt-800_32.png"
+      },
+      {
+        word: "melt",
+        rendering: "lt",
+        image: "images/melt-800_32.png"
+      },
+      {
         word: "belt",
         rendering: "lt",
         image: "images/belt.png"
       },
       {
+        word: "kilt",
+        rendering: "lt",
+        image: "images/kilt-800_32.png"
+      },
+      {
         word: "wilt",
         rendering: "lt",
         image: "images/wilt-800_32.png"
+      },
+      {
+        word: "mast",
+        rendering: "st",
+        image: "images/mast.png"
+      },
+      {
+        word: "rust",
+        rendering: "st",
+        image: "images/rust-800_32.png"
+      },
+      {
+        word: "rest",
+        rendering: "st",
+        image: "images/rest-800_32.png"
       },
       {
         word: "vest",
@@ -161,6 +206,16 @@ const cardSets = {
         image: "images/wink.png"
       },
       {
+        word: "junk",
+        rendering: "nk",
+        image: "images/junk.png"
+      },
+      {
+        word: "elm",
+        rendering: "lm",
+        image: "images/elm-800_32.png"
+      },
+      {
         word: "film",
         rendering: "lm",
         image: "images/film.png"
@@ -171,7 +226,7 @@ const cardSets = {
         image: "images/palm.png"
       },
       {
-        word: "lip balm",
+        word: "balm",
         rendering: "lm",
         image: "images/lip_blam-800_32.png"
       },
@@ -197,6 +252,11 @@ const cardSets = {
       },
       {
         word: "wand",
+        rendering: "nd",
+        image: "images/wand-800_32.png"
+      },
+      {
+        word: "wind",
         rendering: "nd",
         image: "images/wand-800_32.png"
       },
