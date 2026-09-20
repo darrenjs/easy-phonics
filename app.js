@@ -1,5 +1,6 @@
 let currentSet = "cvc";
 let currentCard = 0;
+let shuffledCards = null;
 
 let touchStartX = 0;
 let touchStartY = 0;
@@ -74,6 +75,23 @@ function showCard() {
   });
 }
 
+function shuffleCards() {
+  for (const set of Object.values(cardSets)) {
+    const cards = set.cards;
+
+    // Fisher-Yates shuffle
+    for (let i = cards.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [cards[i], cards[j]] = [cards[j], cards[i]];
+    }
+  }
+
+  currentCard = 0;
+
+  closeSetMenu();
+  showCard();
+}
+
 function buildSetMenu() {
   menuEl.innerHTML = "";
 
@@ -99,6 +117,18 @@ function buildSetMenu() {
 
     menuEl.appendChild(option);
   }
+
+    const separator = document.createElement("div");
+separator.className = "menu-separator";
+menuEl.appendChild(separator);
+
+const shuffleOption = document.createElement("button");
+shuffleOption.className = "set-option shuffle-option";
+shuffleOption.type = "button";
+shuffleOption.textContent = "Shuffle cards";
+shuffleOption.addEventListener("click", shuffleCards);
+
+menuEl.appendChild(shuffleOption);
 }
 
 function openSetMenu() {

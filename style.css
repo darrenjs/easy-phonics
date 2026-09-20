@@ -287,6 +287,13 @@ button {
     text-decoration-skip-ink: none;
 }
 
+.menu-separator {
+  height: 1px;
+  margin: 6px 8px;
+  background: #e5eef2;
+}
+
+
 /* Ground decoration */
 
 .ground {
