@@ -3,6 +3,26 @@
         "name": "CVC Words",
         "cards": [
             {
+                "word": "bat",
+                "rendering": "a",
+                "image": "images/bat.png"
+            },
+            {
+                "word": "rat",
+                "rendering": "a",
+                "image": "images/rat.png"
+            },
+            {
+                "word": "pop",
+                "rendering": "o",
+                "image": "images/pop.png"
+            },
+            {
+                "word": "pup",
+                "rendering": "u",
+                "image": "images/pup.png"
+            },
+            {
                 "word": "fox",
                 "rendering": "o",
                 "image": "images/fox.png"
