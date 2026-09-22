@@ -6,6 +6,26 @@ const cardSets = {
     name: "CVC Words",
     cards: [
       {
+        word: "mad",
+        rendering: "a",
+        image: "images/mad.png"
+      },
+      {
+        word: "fog",
+        rendering: "o",
+        image: "images/fog.png"
+      },
+      {
+        word: "hog",
+        rendering: "o",
+        image: "images/hog.png"
+      },
+      {
+        word: "dad",
+        rendering: "a",
+        image: "images/dad.png"
+      },
+      {
         word: "bat",
         rendering: "a",
         image: "images/bat.png"
@@ -86,9 +106,24 @@ const cardSets = {
     name: "CVCC Words",
     cards: [
       {
+        word: "lamp",
+        rendering: "mp",
+        image: "images/lamp.png"
+      },
+      {
+        word: "bump",
+        rendering: "mp",
+        image: "images/bump.png"
+      },
+      {
         word: "sink",
         rendering: "nk",
         image: "images/sink.png"
+      },
+      {
+        word: "golf",
+        rendering: "lf",
+        image: "images/golf.png"
       },
       {
         word: "rink",
@@ -251,6 +286,11 @@ const cardSets = {
         image: "images/lip_blam-800_32.png"
       },
       {
+        word: "desk",
+        rendering: "sk",
+        image: "images/desk.png"
+      },
+      {
         word: "tusk",
         rendering: "sk",
         image: "images/tusk.png"
@@ -284,6 +324,11 @@ const cardSets = {
         word: "pond",
         rendering: "nd",
         image: "images/pond-800_32.png"
+      },
+      {
+        word: "half",
+        rendering: "lf",
+        image: "images/half_apple.png"
       },
       {
         word: "calf",
