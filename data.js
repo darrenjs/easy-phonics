@@ -99,12 +99,87 @@ const cardSets = {
         word: "egg",
         rendering: "e",
         image: "images/egg.png"
+      },
+      {
+        word: "hex",
+        rendering: "e",
+        image: "images/hex-800_32.png"
+      },
+      {
+        word: "hen",
+        rendering: "e",
+        image: "images/hen-800_32.png"
+      },
+      {
+        word: "hut",
+        rendering: "u",
+        image: "images/hut-800_32.png"
+      },
+      {
+        word: "gig",
+        rendering: "i",
+        image: "images/gig-800_32.png"
+      },
+      {
+        word: "gag",
+        rendering: "a",
+        image: "images/gag-800_32.png"
+      },
+      {
+        word: "gun",
+        rendering: "u",
+        image: "images/gun-800_32.png"
+      },
+      {
+        word: "hag",
+        rendering: "a",
+        image: "images/hag.png"
+      },
+      {
+        word: "hob",
+        rendering: "o",
+        image: "images/hob.png"
       }
     ]
   },
   "cvcc": {
     name: "CVCC Words",
     cards: [
+      {
+        word: "rusk",
+        rendering: "sk",
+        image: "images/rusk.png"
+      },
+      {
+        word: "end",
+        rendering: "e",
+        image: "images/end-800_32.png"
+      },
+      {
+        word: "cork",
+        rendering: "rk",
+        image: "images/cork-800_32.png"
+      },
+      {
+        word: "dirt",
+        rendering: "rt",
+        image: "images/dirt.png"
+      },
+      {
+        word: "tank",
+        rendering: "nk",
+        image: "images/tank.png"
+      },
+      {
+        word: "bent",
+        rendering: "nt",
+        image: "images/bent.png"
+      },
+      {
+        word: "kelp",
+        rendering: "lp",
+        image: "images/kelp.png"
+      },
       {
         word: "lamp",
         rendering: "mp",
@@ -124,6 +199,11 @@ const cardSets = {
         word: "golf",
         rendering: "lf",
         image: "images/golf.png"
+      },
+      {
+        word: "wept",
+        rendering: "pt",
+        image: "images/wept.png"
       },
       {
         word: "rink",
@@ -304,6 +384,11 @@ const cardSets = {
         word: "gift",
         rendering: "ft",
         image: "images/gift.png"
+      },
+      {
+        word: "sand",
+        rendering: "nd",
+        image: "images/sand-800_32.png"
       },
       {
         word: "hand",
