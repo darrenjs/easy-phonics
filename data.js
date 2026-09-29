@@ -139,6 +139,131 @@ const cardSets = {
         word: "hob",
         rendering: "o",
         image: "images/hob.png"
+      },
+      {
+        word: "vet",
+        rendering: "e",
+        image: "images/vet.png"
+      },
+      {
+        word: "jab",
+        rendering: "a",
+        image: "images/jab.png"
+      },
+      {
+        word: "wok",
+        rendering: "o",
+        image: "images/wok.png"
+      },
+      {
+        word: "wag",
+        rendering: "a",
+        image: "images/wag.png"
+      },
+      {
+        word: "wet",
+        rendering: "e",
+        image: "images/wet.png"
+      },
+      {
+        word: "keg",
+        rendering: "e",
+        image: "images/keg.png"
+      },
+      {
+        word: "hit",
+        rendering: "i",
+        image: "images/hit.png"
+      },
+      {
+        word: "cap",
+        rendering: "a",
+        image: "images/cap.png"
+      },
+      {
+        word: "rot",
+        rendering: "o",
+        image: "images/rot.png"
+      },
+      {
+        word: "pen",
+        rendering: "e",
+        image: "images/pen.png"
+      },
+      {
+        word: "pig",
+        rendering: "i",
+        image: "images/pig.png"
+      },
+      {
+        word: "ram",
+        rendering: "a",
+        image: "images/ram.png"
+      },
+      {
+        word: "net",
+        rendering: "e",
+        image: "images/net.png"
+      },
+      {
+        word: "rag",
+        rendering: "a",
+        image: "images/rag.png"
+      },
+      {
+        word: "rig",
+        rendering: "i",
+        image: "images/rig.png"
+      },
+      {
+        word: "rug",
+        rendering: "u",
+        image: "images/rug.png"
+      },
+      {
+        word: "peg",
+        rendering: "e",
+        image: "images/peg.png"
+      },
+      {
+        word: "pug",
+        rendering: "u",
+        image: "images/pug.png"
+      },
+      {
+        word: "sun",
+        rendering: "u",
+        image: "images/sun.png"
+      },
+      {
+        word: "jug",
+        rendering: "u",
+        image: "images/jug.png"
+      },
+      {
+        word: "pin",
+        rendering: "i",
+        image: "images/pin.png"
+      },
+      {
+        word: "bed",
+        rendering: "e",
+        image: "images/bed.png"
+      },
+      {
+        word: "win",
+        rendering: "i",
+        image: "images/win.png"
+      },
+      {
+        word: "hat",
+        rendering: "a",
+        image: "images/hat-800_32.png"
+      },
+      {
+        word: "mop",
+        rendering: "o",
+        image: "images/mop.png"
       }
     ]
   },
