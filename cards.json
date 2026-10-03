@@ -129,7 +129,28 @@
             {   "word": "bed", "rendering": "e", "image": "images/bed.png"  },
             {   "word": "win", "rendering": "i", "image": "images/win.png"  },
             {   "word": "hat", "rendering": "a", "image": "images/hat-800_32.png"  },
-            {   "word": "mop", "rendering": "o", "image": "images/mop.png"  }
+            {   "word": "mop", "rendering": "o", "image": "images/mop.png"  },
+            {   "word": "wig", "rendering": "i", "image": "images/wig-800_32.png"  },
+            {   "word": "joy", "rendering": "o", "image": "images/joy-800_32.png"  },
+            {   "word": "nap", "rendering": "a", "image": "images/nap-800_32.png"  },
+            {   "word": "cob", "rendering": "o", "image": "images/cob-800_32.png"  },
+            {   "word": "den", "rendering": "e", "image": "images/den.png"  },
+            {   "word": "cod", "rendering": "o", "image": "images/cod.png"  },
+            {   "word": "pox", "rendering": "o", "image": "images/pox.png"  },
+            {   "word": "hop", "rendering": "o", "image": "images/hop.png"  },
+            {   "word": "van", "rendering": "a", "image": "images/van.png"  },
+            {   "word": "tit", "rendering": "i", "image": "images/tit.png"  },
+            {   "word": "sax", "rendering": "a", "image": "images/sax.png"  },
+            {   "word": "tap", "rendering": "a", "image": "images/tap.png"  },
+            {   "word": "rex", "rendering": "e", "image": "images/rex.png"  },
+            {   "word": "mug", "rendering": "u", "image": "images/mug.png"  },
+            {   "word": "gum", "rendering": "u", "image": "images/gum-800_32.png"  },
+            {   "word": "pip", "rendering": "i", "image": "images/pip.png"  },
+            {   "word": "log", "rendering": "o", "image": "images/log.png"  },
+            {   "word": "lap", "rendering": "a", "image": "images/lap.png"  },
+            {   "word": "wax", "rendering": "a", "image": "images/wax-800_32.png"  },
+            {   "word": "yum", "rendering": "u", "image": "images/yum-800_32.png"  }
+
 
         ]
     },
@@ -175,6 +196,11 @@
                 "word": "lamp",
                 "rendering": "mp",
                 "image": "images/lamp.png"
+            },
+            {
+                "word": "pump",
+                "rendering": "mp",
+                "image": "images/pump-800_32.png"
             },
             {
                 "word": "bump",
@@ -397,7 +423,7 @@
             {
                 "word": "wind",
                 "rendering": "nd",
-                "image": "images/wand-800_32.png"
+                "image": "images/wind-800_32.png"
             },
             {
                 "word": "pond",
