@@ -173,7 +173,7 @@ const cardSets = {
       {
         word: "hit",
         rendering: "i",
-        image: "images/hit.png"
+        image: "images/kw_hit-800_32.png"
       },
       {
         word: "cap",
@@ -258,7 +258,7 @@ const cardSets = {
       {
         word: "hat",
         rendering: "a",
-        image: "images/hat-800_32.png"
+        image: "images/kw_hat-800_32.png"
       },
       {
         word: "mop",
@@ -364,6 +364,36 @@ const cardSets = {
         word: "yum",
         rendering: "u",
         image: "images/yum-800_32.png"
+      },
+      {
+        word: "fat",
+        rendering: "a",
+        image: "images/fat-800_32.png"
+      },
+      {
+        word: "ref",
+        rendering: "e",
+        image: "images/ref-800_32.png"
+      },
+      {
+        word: "fix",
+        rendering: "i",
+        image: "images/fix-800_32.png"
+      },
+      {
+        word: "fez",
+        rendering: "e",
+        image: "images/fez-800_32.png"
+      },
+      {
+        word: "fig",
+        rendering: "i",
+        image: "images/fig-800_32.png"
+      },
+      {
+        word: "fan",
+        rendering: "a",
+        image: "images/fan-800_32.png"
       }
     ]
   },

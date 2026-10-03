@@ -111,7 +111,7 @@
             {   "word": "wag", "rendering": "a", "image": "images/wag.png"  },
             {   "word": "wet", "rendering": "e", "image": "images/wet.png"  },
             {   "word": "keg", "rendering": "e", "image": "images/keg.png"  },
-            {   "word": "hit", "rendering": "i", "image": "images/hit.png"  },
+            {   "word": "hit", "rendering": "i", "image": "images/kw_hit-800_32.png"  },
             {   "word": "cap", "rendering": "a", "image": "images/cap.png"  },
             {   "word": "rot", "rendering": "o", "image": "images/rot.png"  },
             {   "word": "pen", "rendering": "e", "image": "images/pen.png"  },
@@ -128,7 +128,7 @@
             {   "word": "pin", "rendering": "i", "image": "images/pin.png"  },
             {   "word": "bed", "rendering": "e", "image": "images/bed.png"  },
             {   "word": "win", "rendering": "i", "image": "images/win.png"  },
-            {   "word": "hat", "rendering": "a", "image": "images/hat-800_32.png"  },
+            {   "word": "hat", "rendering": "a", "image": "images/kw_hat-800_32.png"  },
             {   "word": "mop", "rendering": "o", "image": "images/mop.png"  },
             {   "word": "wig", "rendering": "i", "image": "images/wig-800_32.png"  },
             {   "word": "joy", "rendering": "o", "image": "images/joy-800_32.png"  },
@@ -149,9 +149,13 @@
             {   "word": "log", "rendering": "o", "image": "images/log.png"  },
             {   "word": "lap", "rendering": "a", "image": "images/lap.png"  },
             {   "word": "wax", "rendering": "a", "image": "images/wax-800_32.png"  },
-            {   "word": "yum", "rendering": "u", "image": "images/yum-800_32.png"  }
-
-
+            {   "word": "yum", "rendering": "u", "image": "images/yum-800_32.png"  },
+            {   "word": "fat", "rendering": "a", "image": "images/fat-800_32.png"  },
+            {   "word": "ref", "rendering": "e", "image": "images/ref-800_32.png"  },
+            {   "word": "fix", "rendering": "i", "image": "images/fix-800_32.png"  },
+            {   "word": "fez", "rendering": "e", "image": "images/fez-800_32.png"  },
+            {   "word": "fig", "rendering": "i", "image": "images/fig-800_32.png"  },
+            {   "word": "fan", "rendering": "a", "image": "images/fan-800_32.png"  }
         ]
     },
     "cvcc": {
