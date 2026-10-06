@@ -718,7 +718,7 @@ const cardSets = {
     ]
   },
   "sh": {
-    name: "CVCC Words",
+    name: "SH Words",
     cards: [
       {
         word: "shed",
@@ -729,6 +729,11 @@ const cardSets = {
         word: "ship",
         rendering: "sh",
         image: "images/ship.png"
+      },
+      {
+        word: "show",
+        rendering: "sh",
+        image: "images/show-800_32.png"
       },
       {
         word: "rush",
