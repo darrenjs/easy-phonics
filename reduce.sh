@@ -7,6 +7,5 @@ do
     name="${filename%.*}"
     ext="${filename##*.}"
 
-
-    magick ${filename} -resize 800x -colors 32 ${name}-800_32.${ext}
+    magick ${filename} -resize 800x -colors 32 -alpha on ${name}-800_32.${ext}
 done

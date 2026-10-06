@@ -394,6 +394,26 @@ const cardSets = {
         word: "fan",
         rendering: "a",
         image: "images/fan-800_32.png"
+      },
+      {
+        word: "can",
+        rendering: "a",
+        image: "images/cab.png"
+      },
+      {
+        word: "cot",
+        rendering: "o",
+        image: "images/cot.png"
+      },
+      {
+        word: "cut",
+        rendering: "u",
+        image: "images/cut.png"
+      },
+      {
+        word: "tic",
+        rendering: "i",
+        image: "images/tic.png"
       }
     ]
   },
@@ -694,6 +714,51 @@ const cardSets = {
         word: "text",
         rendering: "xt",
         image: "images/text-800_32.png"
+      }
+    ]
+  },
+  "sh": {
+    name: "CVCC Words",
+    cards: [
+      {
+        word: "shed",
+        rendering: "sh",
+        image: "images/shed.png"
+      },
+      {
+        word: "ship",
+        rendering: "sh",
+        image: "images/ship.png"
+      },
+      {
+        word: "rush",
+        rendering: "sh",
+        image: "images/rush.png"
+      },
+      {
+        word: "fish",
+        rendering: "sh",
+        image: "images/fish.png"
+      },
+      {
+        word: "mash",
+        rendering: "sh",
+        image: "images/mash.png"
+      },
+      {
+        word: "rash",
+        rendering: "sh",
+        image: "images/rash-800_32.png"
+      },
+      {
+        word: "posh",
+        rendering: "sh",
+        image: "images/posh.png"
+      },
+      {
+        word: "hush",
+        rendering: "sh",
+        image: "images/hush.png"
       }
     ]
   }
