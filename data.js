@@ -731,9 +731,19 @@ const cardSets = {
         image: "images/ship.png"
       },
       {
+        word: "shin",
+        rendering: "sh",
+        image: "images/shin-800_32.png"
+      },
+      {
         word: "show",
         rendering: "sh",
         image: "images/show-800_32.png"
+      },
+      {
+        word: "shop",
+        rendering: "sh",
+        image: "images/shop-800_32.png"
       },
       {
         word: "rush",
@@ -764,6 +774,76 @@ const cardSets = {
         word: "hush",
         rendering: "sh",
         image: "images/hush.png"
+      },
+      {
+        word: "dish",
+        rendering: "sh",
+        image: "images/dish-800_32.png"
+      },
+      {
+        word: "wish",
+        rendering: "sh",
+        image: "images/wish-800_32.png"
+      }
+    ]
+  },
+  "ng": {
+    name: "NG Words",
+    cards: [
+      {
+        word: "bang",
+        rendering: "ng",
+        image: "images/bang-800_32.png"
+      },
+      {
+        word: "dung",
+        rendering: "ng",
+        image: "images/dung-800_32.png"
+      },
+      {
+        word: "fang",
+        rendering: "ng",
+        image: "images/fang-800_32.png"
+      },
+      {
+        word: "gang",
+        rendering: "ng",
+        image: "images/gang.png"
+      },
+      {
+        word: "gong",
+        rendering: "ng",
+        image: "images/gong.png"
+      },
+      {
+        word: "hang",
+        rendering: "ng",
+        image: "images/hang-800_32.png"
+      },
+      {
+        word: "king",
+        rendering: "ng",
+        image: "images/king.png"
+      },
+      {
+        word: "king kong",
+        rendering: "ng",
+        image: "images/king_kong-800_32.png"
+      },
+      {
+        word: "long",
+        rendering: "ng",
+        image: "images/long.png"
+      },
+      {
+        word: "rung",
+        rendering: "ng",
+        image: "images/rung.png"
+      },
+      {
+        word: "sing",
+        rendering: "ng",
+        image: "images/sing.png"
       }
     ]
   }
