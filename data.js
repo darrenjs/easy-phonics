@@ -3,7 +3,7 @@
 
 const cardSets = {
   "cvc": {
-    name: "CVC Words",
+    name: "cvc words",
     cards: [
       {
         word: "mad",
@@ -418,7 +418,7 @@ const cardSets = {
     ]
   },
   "cvcc": {
-    name: "CVCC Words",
+    name: "cvcc words",
     cards: [
       {
         word: "rusk",
@@ -439,11 +439,6 @@ const cardSets = {
         word: "dirt",
         rendering: "rt",
         image: "images/dirt.png"
-      },
-      {
-        word: "tank",
-        rendering: "nk",
-        image: "images/tank.png"
       },
       {
         word: "bent",
@@ -471,11 +466,6 @@ const cardSets = {
         image: "images/bump.png"
       },
       {
-        word: "sink",
-        rendering: "nk",
-        image: "images/sink.png"
-      },
-      {
         word: "golf",
         rendering: "lf",
         image: "images/golf.png"
@@ -484,16 +474,6 @@ const cardSets = {
         word: "wept",
         rendering: "pt",
         image: "images/wept.png"
-      },
-      {
-        word: "rink",
-        rendering: "nk",
-        image: "images/rink-800_32.png"
-      },
-      {
-        word: "pink",
-        rendering: "nk",
-        image: "images/pink-800_32.png"
       },
       {
         word: "milk",
@@ -611,21 +591,6 @@ const cardSets = {
         image: "images/wasp.png"
       },
       {
-        word: "ink",
-        rendering: "nk",
-        image: "images/ink.png"
-      },
-      {
-        word: "wink",
-        rendering: "nk",
-        image: "images/wink.png"
-      },
-      {
-        word: "junk",
-        rendering: "nk",
-        image: "images/junk.png"
-      },
-      {
         word: "elm",
         rendering: "lm",
         image: "images/elm-800_32.png"
@@ -718,7 +683,7 @@ const cardSets = {
     ]
   },
   "sh": {
-    name: "SH Words",
+    name: "sh words",
     cards: [
       {
         word: "shed",
@@ -788,7 +753,7 @@ const cardSets = {
     ]
   },
   "ng": {
-    name: "NG Words",
+    name: "ng words",
     cards: [
       {
         word: "bang",
@@ -844,6 +809,151 @@ const cardSets = {
         word: "sing",
         rendering: "ng",
         image: "images/sing.png"
+      }
+    ]
+  },
+  "ck": {
+    name: "ck words",
+    cards: [
+      {
+        word: "neck",
+        rendering: "ck",
+        image: "images/neck-800_32.png"
+      },
+      {
+        word: "jack",
+        rendering: "ck",
+        image: "images/jack-800_32.png"
+      },
+      {
+        word: "duck",
+        rendering: "ck",
+        image: "images/duck-800_32.png"
+      },
+      {
+        word: "lock",
+        rendering: "ck",
+        image: "images/lock-800_32.png"
+      },
+      {
+        word: "sock",
+        rendering: "ck",
+        image: "images/sock-800_32.png"
+      }
+    ]
+  },
+  "nk": {
+    name: "nk words",
+    cards: [
+      {
+        word: "bonk",
+        rendering: "nk",
+        image: "images/bonk.png"
+      },
+      {
+        word: "wink",
+        rendering: "nk",
+        image: "images/wink.png"
+      },
+      {
+        word: "trunk",
+        rendering: "nk",
+        image: "images/trunk-800_32.png"
+      },
+      {
+        word: "chunk",
+        rendering: "nk",
+        image: "images/chunk-800_32.png"
+      },
+      {
+        word: "tank",
+        rendering: "nk",
+        image: "images/tank.png"
+      },
+      {
+        word: "sink",
+        rendering: "nk",
+        image: "images/sink.png"
+      },
+      {
+        word: "rink",
+        rendering: "nk",
+        image: "images/rink-800_32.png"
+      },
+      {
+        word: "pink",
+        rendering: "nk",
+        image: "images/pink-800_32.png"
+      },
+      {
+        word: "ink",
+        rendering: "nk",
+        image: "images/ink.png"
+      },
+      {
+        word: "wink",
+        rendering: "nk",
+        image: "images/wink.png"
+      },
+      {
+        word: "junk",
+        rendering: "nk",
+        image: "images/junk.png"
+      }
+    ]
+  },
+  "ch": {
+    name: "ch words",
+    cards: [
+      {
+        word: "chop",
+        rendering: "ch",
+        image: "images/chop-800_32.png"
+      },
+      {
+        word: "chimp",
+        rendering: "ch",
+        image: "images/chimp-800_32.png"
+      },
+      {
+        word: "charm",
+        rendering: "ch",
+        image: "images/charm-800_32.png"
+      },
+      {
+        word: "chart",
+        rendering: "ch",
+        image: "images/chart-800_32.png"
+      },
+      {
+        word: "rich",
+        rendering: "ch",
+        image: "images/rich-800_32.png"
+      },
+      {
+        word: "arch",
+        rendering: "ch",
+        image: "images/arch-800_32.png"
+      },
+      {
+        word: "chalk",
+        rendering: "ch",
+        image: "images/chalk-800_32.png"
+      },
+      {
+        word: "chest",
+        rendering: "ch",
+        image: "images/chest-800_32.png"
+      },
+      {
+        word: "chest",
+        rendering: "ch",
+        image: "images/chill-800_32.png"
+      },
+      {
+        word: "chunk",
+        rendering: "ch",
+        image: "images/chunk-800_32.png"
       }
     ]
   }

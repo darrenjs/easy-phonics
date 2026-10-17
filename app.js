@@ -22,6 +22,7 @@ function getCards() {
   return cardSets[currentSet].cards;
 }
 
+/*
 function highlightWord(word, rendering) {
   if (!rendering) return escapeHtml(word);
 
@@ -36,7 +37,34 @@ function highlightWord(word, rendering) {
     `<span class="focus">${escapeHtml(rendering)}</span>` +
     escapeHtml(word.slice(index + rendering.length))
   );
+  }
+*/
+
+function highlightWord(word, rendering) {
+  if (!rendering) return escapeHtml(word);
+
+  let result = "";
+  let start = 0;
+  let index;
+
+  while ((index = word.indexOf(rendering, start)) !== -1) {
+    result += escapeHtml(word.slice(start, index));
+    result += `<span class="focus">${escapeHtml(rendering)}</span>`;
+
+    start = index + rendering.length;
+  }
+
+  // Add whatever remains after the final match
+  result += escapeHtml(word.slice(start));
+
+  // No matches were found
+  if (start === 0) {
+    return escapeHtml(word);
+  }
+
+  return result;
 }
+
 
 function escapeHtml(text) {
   const div = document.createElement("div");
